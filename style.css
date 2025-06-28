@@ -22,6 +22,15 @@
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
+.btn-primary{
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+}
 .navbar{
     width: 80%;
     margin: 0 auto;
@@ -46,7 +55,21 @@
 .banner{
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 102px;
+    margin-bottom: 32px;
+}
+.banner-des{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
 }
 .banner img{
     width: 100%;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
