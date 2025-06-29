@@ -193,3 +193,9 @@ main{
 .sponsor-card img{
     filter: grayscale(100%);
 }
+footer{
+    height: 100px;
+    margin-top: 130px;
+    align-items: center;
+    justify-content: center;
+}
