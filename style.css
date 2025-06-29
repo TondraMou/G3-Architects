@@ -99,5 +99,49 @@ main{
 .feature-des{
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
+}
+.feature{
+    margin-top: 130px;
+    min-height: 100vh;
+    gap: 146px;
+}
+.feature-left, .feature-right {
+  flex: 1;
+}
+#feature-section-title{
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 21px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature-right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.badge{
+    background-color: rgb(255, 144, 14);
+    padding: 46px;
+    border: none;
+    color: white;
+    margin-top: -110px;
+    margin-left: -100px;
+}
+.year{
+    font-size: 65px;
+    font-weight: 700;
+}
+.experience{
+    font-size: 25px;
+    font-weight: 500;
 }
