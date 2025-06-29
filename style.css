@@ -134,7 +134,7 @@ main{
     padding: 46px;
     border: none;
     color: white;
-    margin-top: -110px;
+    margin-top: -240px;
     margin-left: -100px;
 }
 .year{
@@ -144,4 +144,39 @@ main{
 .experience{
     font-size: 25px;
     font-weight: 500;
+}
+.facts{
+    margin-top: 150px;
+}
+.fact-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.fact-card-container{
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+.fact-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  rgb(255, 144, 14);
+    width: 240px;
+    height: 200px;
+    padding-top: 30px;
+}
+.fact-card-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.fact-des{
+    margin-top: 5px;
+    text-align: center;
 }
